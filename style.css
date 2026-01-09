@@ -49,12 +49,24 @@ body {
     width: auto;
     height: auto;
     font-family: "Protest Guerilla", sans-serif;
+    font-size: 50px;
 }
 
 .input-box {
-    width: 30vw;
-    height: 600px;
+    width: 25vw;
+    height: 400px;
     background-color: grey;
     border-radius: 10px;
     margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
 }
